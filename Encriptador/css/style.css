@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: url(https://fondosmil.com/fondo/52913.jpg) no-repeat fixed;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    padding: 5px;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #8598ac;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+section.section1 {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+textarea#text {
+    width: 60%;
+    margin: 10px;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    border: 3px solid #f7f5f53d;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+    box-shadow: 1px 1px 4px #36333348;
+}
+
+div.warning {
+    color: #ffffff6e;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+div.buttons {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    right: 145px;
+}
+
+button#encrypt,
+button#desencrypt {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-encrypt-desencrypt-copy {
+    color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 4px 4px 7px black;
+}
+
+.btn-hover:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+section.section2 {
+    width: auto;
+    height: 550px;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea#text-result {
+    width: 300px;
+    height: 450px;
+    font-size: 20px;
+    color: white;
+    border: 3px solid #f7f5f53d;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+    background: transparent;
+    box-shadow: 1px 1px 4px #36333386;
+}
+
+img#img-candado {
+    position: absolute;
+    width: 300px;
+    top: 140px;
+}
+
+div#msj {
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    bottom: 188px;
+}
+
+div#msj > h3 {
+    position: relative;
+    color: white;
+    bottom: 15px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+div#msj > p {
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    color: #ffffff6e;
+    font-size: 1.1em;
+    font-style: normal;
+    flex: none;
+}
+
+div.txt-copy {
+    position: relative;
+    display: block;
+    top: 95px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button#btn-copy {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+div#copyright {
+    margin: 10px 0;
+}
+
+div#copyright p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+@keyframes shake {
+    10%{transform: rotate(20deg);}
+    20%{transform: rotate(-20deg);}
+    30%{transform: rotate(5deg);}
+    40%{transform: rotate(-5deg);}
+}
+
+
+
+

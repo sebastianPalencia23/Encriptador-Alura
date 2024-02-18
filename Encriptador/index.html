@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <!--Seccion 1-->
+        <section class="section1">
+            <!--Ingreso de texto-->
+            <div class="div-text">
+                <textarea id="text" cols="35" rows="20" placeholder="Ingrese el texto acá..."></textarea>
+            </div>
+            <!--Advertencia-->
+            <div class="warning">
+                <p>
+                    <i class="bi bi-exclamation-circle"></i> Solo letras minusculas y sin acentos.
+                </p>
+            </div>
+            <!--BOTONES ENCRIPTAR Y DESENCRIPTAR-->
+            <div class="buttons">
+                <button id="encrypt" class="btn-encrypt-desencrypt-copy btn-hover" type="button" onclick="encriptar()" >Encriptar</button>
+                <button id="desencrypt" class="btn-encrypt-desencrypt-copy btn-hover" type="button" onclick="desencriptar()" >Desencriptar</button>
+            </div>
+        </section>
+        <!--Seccion 2-->
+        <section class="section2">
+            <div class="input-text">
+                <textarea id="text-result" cols="30" rows="10" disabled></textarea>
+            </div>
+            <img src="img/Muñeco.png" alt="" id="img-candado">
+            <div id="msj">
+                <h3 id="mensaje-1">Ningún mensaje fue encontrado</h3>
+                <p id="mensaje-2">Ingrese el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="txt-copy">
+                <button id="btn-copy" class="btn-hover btn-encrypt-desencrypt-copy" type="button" >Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="copyright">
+            <p>&copy Copyright Andres Palencia 2024</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
